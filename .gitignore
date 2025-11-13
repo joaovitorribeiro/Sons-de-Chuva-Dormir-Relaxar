@@ -11,6 +11,3 @@ app/src/main/assets/*
 !app/src/main/assets/rainforest_sounds.mp3
 !app/src/main/assets/forest_at_night.mp3
 !app/src/main/assets/quiet_river.mp3
-
-# Ignora builds
-app/build/outputs/**

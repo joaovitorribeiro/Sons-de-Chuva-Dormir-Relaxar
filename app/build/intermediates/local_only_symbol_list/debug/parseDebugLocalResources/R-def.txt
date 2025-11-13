@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+string admob_app_id
+string admob_banner_id
+string admob_interstitial_id
+string app_name
+string privacy_url
+style Theme.SonsChuva
