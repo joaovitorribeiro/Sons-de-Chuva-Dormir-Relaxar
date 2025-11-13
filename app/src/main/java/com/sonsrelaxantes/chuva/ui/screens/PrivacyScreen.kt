@@ -29,6 +29,14 @@ fun PrivacyScreen(navController: NavController) {
                     override fun onReceivedError(view: WebView, request: WebResourceRequest, error: WebResourceError) {
                         view.loadUrl("file:///android_asset/privacy.html")
                     }
+                    override fun onPageFinished(view: WebView, url: String) {
+                        view.evaluateJavascript("(function(){var t='';try{t=(document.body&&document.body.innerText)||'';}catch(e){}return (t||'').trim().length;})()") { res ->
+                            val len = res?.replace("\"", "")?.toIntOrNull() ?: -1
+                            if (len <= 0) {
+                                view.loadUrl("file:///android_asset/privacy.html")
+                            }
+                        }
+                    }
                 }
                 wv.settings.javaScriptEnabled = true
                 wv.loadUrl(privacyUrl)
