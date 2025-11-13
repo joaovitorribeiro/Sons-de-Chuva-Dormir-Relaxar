@@ -12,5 +12,11 @@ app/src/main/assets/*
 !app/src/main/assets/forest_at_night.mp3
 !app/src/main/assets/quiet_river.mp3
 
-# Ignora builds
-app/build/outputs/**
+app/build/
+.gradle/
+build/
+**/*.iml
+.idea/
+local.properties
+*.apk
+*.aab
