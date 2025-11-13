@@ -39,6 +39,9 @@ fun PrivacyScreen(navController: NavController) {
                     }
                 }
                 wv.settings.javaScriptEnabled = true
+                wv.isVerticalScrollBarEnabled = true
+                wv.scrollBarStyle = android.view.View.SCROLLBARS_INSIDE_OVERLAY
+                wv.overScrollMode = android.view.View.OVER_SCROLL_IF_CONTENT_SCROLLS
                 wv.loadUrl(privacyUrl)
                 wv
             }
