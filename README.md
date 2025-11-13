@@ -1,4 +1,4 @@
-# Sons de Chuva: Dormir & Relaxar
+# Sons de Chuva para Dormir – Relaxamento
 
 App Android em Kotlin/Jetpack Compose para relaxamento e sono com sons de chuva e natureza, mix de sons, timer e integração AdMob.
 
@@ -8,7 +8,7 @@ App Android em Kotlin/Jetpack Compose para relaxamento e sono com sons de chuva 
 
 Última atualização: 13/11/2025
 
-Bem-vindo ao aplicativo **Sons de Chuva** ("App"). Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações ao utilizar o App. Ao usar o App, você concorda com os termos desta política.
+Bem-vindo ao aplicativo **Sons de Chuva para Dormir – Relaxamento** ("App"). Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações ao utilizar o App. Ao usar o App, você concorda com os termos desta política.
 
 ### 1. Controlador
 - Controlador: **Solution Sites**

@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Sons Relaxantes Chuva & Natureza"
+rootProject.name = "Sons de Chuva para Dormir – Relaxamento"
 include(":app")
