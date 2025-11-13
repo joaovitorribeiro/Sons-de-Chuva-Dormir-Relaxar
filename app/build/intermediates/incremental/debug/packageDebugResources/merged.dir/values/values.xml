@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ic_launcher_background">#155FA0</color>
     <string name="admob_app_id">ca-app-pub-2380507239113134~4605990260</string>
     <string name="admob_banner_id">ca-app-pub-2380507239113134/4028116209</string>
     <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>

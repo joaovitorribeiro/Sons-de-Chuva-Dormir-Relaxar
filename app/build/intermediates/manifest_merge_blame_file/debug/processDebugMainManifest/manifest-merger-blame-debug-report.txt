@@ -113,12 +113,12 @@
 64-->[androidx.core:core:1.13.1] C:\Users\joaov\.gradle\caches\transforms-4\6c40c9e7a6e03017b56b235cdf94df9e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 65        android:debuggable="true"
 66        android:extractNativeLibs="false"
-67        android:icon="@android:drawable/sym_def_app_icon"
-67-->C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:9:9-58
+67        android:icon="@mipmap/ic_launcher"
+67-->C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:9:9-43
 68        android:label="@string/app_name"
 68-->C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:10:9-41
-69        android:roundIcon="@android:drawable/sym_def_app_icon"
-69-->C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:11:9-63
+69        android:roundIcon="@mipmap/ic_launcher_round"
+69-->C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:11:9-54
 70        android:supportsRtl="true"
 70-->C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:12:9-35
 71        android:theme="@style/Theme.SonsChuva" >

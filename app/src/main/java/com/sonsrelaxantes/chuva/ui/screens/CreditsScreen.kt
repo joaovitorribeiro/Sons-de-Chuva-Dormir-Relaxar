@@ -16,7 +16,7 @@ import androidx.navigation.NavController
 fun CreditsScreen(navController: NavController) {
     Scaffold(topBar = { TopAppBar(title = { Text("Créditos de Áudio") }) }) { padding ->
         Column(Modifier.padding(padding).padding(16.dp)) {
-            Text("Rain Sound MP3 — OrangeFreeSounds (CC BY 4.0)")
+            Text("Gentle Rain Loop — OrangeFreeSounds (CC BY 4.0)")
             Text("Rain Normal — OrangeFreeSounds (CC BY 4.0)")
             Text("Thunder and Rain — OrangeFreeSounds (CC BY 4.0)")
         }

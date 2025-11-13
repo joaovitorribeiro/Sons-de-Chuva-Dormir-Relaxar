@@ -180,9 +180,9 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\joaov\.gradle\caches\tra
 	android:label
 		ADDED from C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:11:9-63
+		ADDED from C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:9:9-58
+		ADDED from C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from C:\Projetos PlayStore\Sons Relaxantes Chuva & Natureza\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
