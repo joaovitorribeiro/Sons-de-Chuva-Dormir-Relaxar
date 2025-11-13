@@ -3,5 +3,5 @@
     <string name="admob_app_id">ca-app-pub-2380507239113134~4605990260</string>
     <string name="admob_banner_id">ca-app-pub-2380507239113134/4028116209</string>
     <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="privacy_url">https://htmlpreview.github.io/?https://raw.githubusercontent.com/joaovitorribeiro/Sons-de-Chuva-Dormir-Relaxar/main/docs/privacy.html</string>
+    <string name="privacy_url">https://joaovitorribeiro.github.io/Sons-de-Chuva-Dormir-Relaxar/privacy.html</string>
 </resources>
