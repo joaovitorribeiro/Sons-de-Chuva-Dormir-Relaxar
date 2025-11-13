@@ -16,7 +16,7 @@ data class SoundItem(
 
 object SoundRepository {
     val sounds = listOf(
-        SoundItem("chuva_suave", "Chuva Suave", "gentle_rain_soft.mp3", null, Icons.Filled.Cloud),
+        SoundItem("chuva_suave", "Chuva Suave", "rain_normal.mp3", null, Icons.Filled.Cloud),
         SoundItem("chuva_forte", "Chuva Forte", "rain_sound_mp3.mp3", null, Icons.Filled.Cloud),
         SoundItem("chuva_trovao", "Chuva com Trovão", "rain_thunder.mp3", null, Icons.Filled.Cloud),
         SoundItem("oceano_ondas", "Oceano (Ondas)", "waves_mp3.mp3", null, Icons.Filled.Water),
