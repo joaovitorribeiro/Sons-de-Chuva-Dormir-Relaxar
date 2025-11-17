@@ -1,0 +1,25 @@
+# Ignora assets por padrão
+app/src/main/assets/*
+
+# Permite apenas arquivos com licença segura (CC BY 4.0) e política local
+!app/src/main/assets/privacy.html
+!app/src/main/assets/rain_sound_mp3.mp3
+!app/src/main/assets/rain_normal.mp3
+!app/src/main/assets/rain_thunder.mp3
+!app/src/main/assets/waves_mp3.mp3
+!app/src/main/assets/relaxing_forest.mp3
+!app/src/main/assets/rainforest_sounds.mp3
+!app/src/main/assets/forest_at_night.mp3
+!app/src/main/assets/quiet_river.mp3
+
+app/build/
+.gradle/
+build/
+**/*.iml
+.idea/
+local.properties
+*.apk
+*.aab
+keystore.properties
+*.keystore
+app/upload.keystore

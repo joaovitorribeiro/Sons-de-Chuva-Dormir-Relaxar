@@ -37,7 +37,7 @@ fun HomeScreen(navController: NavController, vm: PlayerViewModel, onOpenDrawer: 
     val showPlayAd = remember { mutableStateOf(false) }
     var lastAdShown by remember { mutableStateOf(0L) }
     Scaffold(
-        topBar = { CenterAlignedTopAppBar(title = { Text("Sons de Chuva e Natureza") }, navigationIcon = { IconButton(onClick = onOpenDrawer) { Text("≡") } }) },
+        topBar = { CenterAlignedTopAppBar(title = { Text(com.sonsrelaxantes.chuva.ui.util.StringRes.get(com.sonsrelaxantes.chuva.R.string.title_main)) }, navigationIcon = { IconButton(onClick = onOpenDrawer) { Text("≡") } }) },
         bottomBar = { AdBanner(modifier = Modifier.fillMaxWidth().navigationBarsPadding(), adUnitId = com.sonsrelaxantes.chuva.R.string.admob_banner_id.let { id -> com.sonsrelaxantes.chuva.ui.util.StringRes.get(id) }) },
         contentWindowInsets = WindowInsets.safeDrawing
     ) { padding ->

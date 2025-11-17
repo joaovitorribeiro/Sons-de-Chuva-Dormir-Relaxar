@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -5,19 +7,19 @@ plugins {
 
 android {
     namespace = "com.sonsrelaxantes.chuva"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.sonsrelaxantes.chuva"
         minSdk = 23
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        targetSdk = 35
+        versionCode = 5
+        versionName = "1.0.4"
         vectorDrawables { useSupportLibrary = true }
     }
 
     val keystorePropertiesFile = rootProject.file("keystore.properties")
-    val keystoreProperties = java.util.Properties().apply {
+    val keystoreProperties = Properties().apply {
         if (keystorePropertiesFile.exists()) {
             load(keystorePropertiesFile.inputStream())
         }
@@ -40,6 +42,9 @@ android {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             signingConfig = signingConfigs.getByName("release")
+            ndk {
+                debugSymbolLevel = "SYMBOL_TABLE"
+            }
         }
         debug {
             isMinifyEnabled = false
@@ -66,6 +71,9 @@ android {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
+        jniLibs {
+            keepDebugSymbols += setOf("**/*.so")
+        }
     }
 }
 
@@ -87,4 +95,5 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
 
     implementation("com.google.android.gms:play-services-ads:23.5.0")
+    implementation("androidx.work:work-runtime-ktx:2.9.1")
 }

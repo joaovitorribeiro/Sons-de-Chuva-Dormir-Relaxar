@@ -19,7 +19,7 @@ import com.sonsrelaxantes.chuva.navigation.Routes
 fun AppDrawer(navController: NavController, onClose: () -> Unit) {
     ModalDrawerSheet(drawerContainerColor = DrawerDefaults.containerColor) {
         Column(Modifier.padding(12.dp)) {
-            Text(text = "Sons de Chuva e Natureza")
+            Text(text = com.sonsrelaxantes.chuva.ui.util.StringRes.get(com.sonsrelaxantes.chuva.R.string.title_main))
             Divider(Modifier.padding(vertical = 8.dp))
             NavigationDrawerItem(
                 label = { Text("Home") },
